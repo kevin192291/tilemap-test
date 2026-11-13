@@ -1,0 +1,52 @@
+{
+  "compiler": {
+    "debugOptimization": "-O0",
+    "defines": [],
+    "flags": [
+      "-Wall",
+      "-Wextra"
+    ],
+    "includeDirs": [],
+    "releaseOptimization": "-O2"
+  },
+  "excludedSources": [],
+  "kevcFormat": 1,
+  "kind": "cpp-cmake",
+  "linker": {
+    "dirs": [],
+    "flags": [],
+    "libraries": [],
+    "staticRuntime": false
+  },
+  "name": "tilemap",
+  "outputName": "",
+  "ownsTarget": true,
+  "packages": [
+    {
+      "components": [
+        "Graphics",
+        "Audio",
+        "Network",
+        "Window",
+        "System"
+      ],
+      "name": "SFML",
+      "source": "cmake",
+      "targets": [
+        "SFML::Graphics",
+        "SFML::Audio",
+        "SFML::Network",
+        "SFML::Window",
+        "SFML::System"
+      ],
+      "version": "3"
+    }
+  ],
+  "sources": [
+    "src/TileMap.hpp",
+    "src/main.cpp"
+  ],
+  "standard": "20",
+  "targetName": "tilemap",
+  "targetType": "console"
+}
